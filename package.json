@@ -1,0 +1,37 @@
+{
+  "name": "stellara-mcp",
+  "version": "0.6.2",
+  "description": "Free Stellara MCP server: reading, Christmas Stars card, birth chart, transits and synastry.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "node --import tsx --test test/*.test.ts",
+    "license-check": "node scripts/license-check.mjs",
+    "validate-plugin": "node scripts/validate-plugin.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/luxon": "^3.7.6",
+    "astronomy-engine": "^2.1.19",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "luxon": "^3.7.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "railway": "^3.16.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  }
+}
