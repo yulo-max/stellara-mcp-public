@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.mystellara/stellara",
+  "title": "Stellara",
+  "description": "Free astrology tools: sun sign + life path reading and a Christmas star card from a birth date.",
+  "version": "0.6.3",
+  "websiteUrl": "https://mystellara.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mystellara.com/mcp"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/yulo-max/stellara-mcp-public",
+    "source": "github"
+  }
+}

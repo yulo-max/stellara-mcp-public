@@ -1,0 +1,10 @@
+{
+  "name": "stellara",
+  "version": "0.6.3",
+  "description": "Get a short, free sun sign and life path reading, or create a Christmas star card, from a birth date. No predictions, nothing stored.",
+  "author": { "name": "Stellara" },
+  "repository": "https://github.com/yulo-max/stellara-mcp-public",
+  "license": "MIT",
+  "keywords": ["astrology", "numerology", "sun sign", "life path", "christmas", "self-reflection"],
+  "logo": "assets/logo.svg"
+}
